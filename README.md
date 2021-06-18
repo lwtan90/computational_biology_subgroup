@@ -56,6 +56,12 @@ print(p1)
 
 ```  
 
+###### Expected Output:  
+![Donut Plot](https://github.com/lwtan90/computational_biology_subgroup/blob/main/data/Meeting_20210618/donut.png)  
+
+
+
+
 
 
 
