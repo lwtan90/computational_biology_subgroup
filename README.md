@@ -31,7 +31,14 @@ require(dplyr)
 require(ggplot2)
 
 ### read in the metadata downloaded from NCBI
-data = read.table("data/Meeting_20210618/tissueadded_GSE165837_CARE_ATAC_merged_umap_cluster_labels.tsv",header=TRUE,sep="\t")
+### the file needs to be in the same directory.
+### To check, type the command after this line:
+### getwd()
+### Eg: mine is "Document/"
+### This means that you are in the C:/Document Folder
+### Download tissueadded_GSE165837_CARE_ATAC_merged_umap_cluster_labels.tsv into C:/Document, and you can run the code.
+
+data = read.table("tissueadded_GSE165837_CARE_ATAC_merged_umap_cluster_labels.tsv",header=TRUE,sep="\t")
 summary(data)
 head(data)
 
