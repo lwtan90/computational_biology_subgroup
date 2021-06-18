@@ -9,10 +9,24 @@ require(tidyverse)
 require(dplyr)
 require(ggplot2)
 ```  
+  
+You can run the following codes in Rstudio. For installation of Rstudio, kindly follow the tutorial here (https://www.rstudio.com/).  It is free.  
+Once you have Rstudio opened, kindly download the following packages by typing the commands:  
+```
+install.packages(tidyverse)
+install.packages(dplyr)
+install.packages(ggplot2)
+```  
+
 
   
 ##### Goal: Transform single-cell RNA-seq metadata into Pie and Donut Plot  
 ```
+### loading packages installed in the previous stages
+require(tidyverse)
+require(dplyr)
+require(ggplot2)
+
 ### read in the metadata downloaded from NCBI
 data = read.table("data/Meeting_20210618/tissueadded_GSE165837_CARE_ATAC_merged_umap_cluster_labels.tsv",header=TRUE,sep="\t")
 summary(data)
