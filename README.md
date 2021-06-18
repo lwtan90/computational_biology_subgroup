@@ -51,6 +51,8 @@ p1 <- p1 + geom_bar(stat = "identity")
 p1 <- p1 + coord_polar("y", start = 200)
 p1 <- p1 + theme_void()
 p1 <- p1 + scale_fill_brewer(palette = "Paired") + xlim(.2,2.5)
+p1 <- p1 + annotate(geom = 'text', x = 0.3, y = 0, label = "Cell Type Composition in LV")
+print(p1)
 ```  
 
 
