@@ -1,5 +1,7 @@
 # Joe Wu's Lab Computational Biology Subgroup  
 
+<details>  
+<summary> Meeting on 18 June 2021: Dplyr </summary>  
 ### Meeting on 18 June 2021  
 #### R package for the Month: dplyr  
 
@@ -73,6 +75,7 @@ print(p1)
 ###### Expected Output:  
 ![Donut Plot](https://github.com/lwtan90/computational_biology_subgroup/blob/main/data/Meeting_20210618/donut.png)  
 
+</details>  
 
 
 
