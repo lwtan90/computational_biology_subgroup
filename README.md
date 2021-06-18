@@ -2,6 +2,7 @@
 
 <details>  
 <summary> Meeting on 18 June 2021: Dplyr </summary>  
+
 ### Meeting on 18 June 2021  
 #### R package for the Month: dplyr  
 
